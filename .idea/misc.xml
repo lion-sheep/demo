@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/guava/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-caffeine-redis/pom.xml" />
         <option value="$PROJECT_DIR$/okhttp/pom.xml" />
+        <option value="$PROJECT_DIR$/java8/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

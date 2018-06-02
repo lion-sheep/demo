@@ -26,11 +26,11 @@ public class OkHttpUtil {
     public static String sychronizedGet(String url, Map<String, Object> params, Map<String, String> headers) {
         OkHttpClient client = getClient();
         Request.Builder builder = new Request.Builder();
-        if (!MapUtils.isEmpty(headers)) {
+        if (MapUtils.isNotEmpty(headers)) {
             headers.forEach((k, v) -> builder.header(k, v));
         }
         StringBuffer sb = new StringBuffer("?");
-        if (!MapUtils.isEmpty(params)) {
+        if (MapUtils.isNotEmpty(params)) {
             params.forEach((k, v) -> sb.append(k).append("=").append(v).append("&"));
             String param = sb.toString();
             url += param.substring(0, param.lastIndexOf("&"));
@@ -52,13 +52,13 @@ public class OkHttpUtil {
     public static String asychronizedGet(String url, Map<String, Object> params, Map<String, String> headers, CallbackHandler handler) {
         OkHttpClient client = getClient();
         StringBuffer sb = new StringBuffer("?");
-        if (!MapUtils.isEmpty(params)) {
+        if (MapUtils.isNotEmpty(params)) {
             params.forEach((k, v) -> sb.append(k).append("=").append("&"));
             String param = sb.toString();
             url += param.substring(0, param.lastIndexOf("&"));
         }
         Request.Builder builder = new Request.Builder();
-        if (!MapUtils.isEmpty(headers)) {
+        if (MapUtils.isNotEmpty(headers)) {
             headers.forEach((k, v) -> builder.header(k, v));
         }
         Request request = builder.url(url).get().build();
@@ -69,24 +69,28 @@ public class OkHttpUtil {
     public static String sychronizedPostOrPutOrDelete(String url, Object o, Map<String, String> headers, HttpMethod method) {
         OkHttpClient client = getClient();
         Request.Builder builder = new Request.Builder();
-        if (!MapUtils.isEmpty(headers)) {
+        if (MapUtils.isNotEmpty(headers)) {
             headers.forEach((k, v) -> builder.header(k, v));
         }
-        RequestBody requestBody = null;
         if (ObjectUtils.allNotNull(o)) {
-            requestBody = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), JSON.toJSONString(o));
+            RequestBody body = null;
+            if(o instanceof String){
+                body = RequestBody.create(MediaType.parse("application/json;charset=utf-8;"),(String) o);
+            }else{
+                body = RequestBody.create(MediaType.parse("application/json;charset=utf-8;"), JSON.toJSONString(o));
+            }
             switch (method) {
                 case PUT:
-                    builder.put(requestBody);
+                    builder.put(body);
                     break;
                 case DELETE:
-                    builder.delete(requestBody);
+                    builder.delete(body);
                     break;
                 case POST:
-                    builder.post(requestBody);
+                    builder.post(body);
                     break;
                 default:
-                    builder.post(requestBody);
+                    builder.post(body);
                     break;
             }
         } else {
@@ -123,7 +127,12 @@ public class OkHttpUtil {
         OkHttpClient client = getClient();
         Request.Builder builder = new Request.Builder();
         if (ObjectUtils.allNotNull(o)) {
-            RequestBody body = RequestBody.create(MediaType.parse("application/json;charset=utf-8;"), JSON.toJSONString(o));
+            RequestBody body = null;
+            if(o instanceof String){
+                body = RequestBody.create(MediaType.parse("application/json;charset=utf-8;"),(String) o);
+            }else{
+                body = RequestBody.create(MediaType.parse("application/json;charset=utf-8;"), JSON.toJSONString(o));
+            }
             switch (method) {
                 case POST:
                     builder.post(body);

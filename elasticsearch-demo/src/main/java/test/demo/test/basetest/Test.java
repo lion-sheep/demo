@@ -1,7 +1,5 @@
 package test.demo.test.basetest;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import test.demo.client.HttpClientPool;
 import test.demo.curd.RestfulCRUD;
 import test.demo.curd.RestfulHttpClientCRUD;
 import test.demo.curd.RestfulOKHttpClientCRUD;
@@ -35,11 +33,6 @@ public class Test {
         RestfulCRUD clientCRUD = new RestfulOKHttpClientCRUD();
         Student s = (Student) clientCRUD.getObjectByESSearch("school", "student", "1", "http://localhost", "9200", null, Student.class);
         System.out.println(s);
-    }
-
-    public static void main(String[] args) {
-        CloseableHttpClient client = HttpClientPool.getClient();
-        System.out.println(client);
     }
 
 }

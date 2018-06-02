@@ -9,6 +9,6 @@ import test.demo.query.MatchQuery;
  */
 public class Test {
     public static void main(String[] args) {
-        new MatchQuery().matchQueryByTransportClient();
+        new MatchQuery().matchQueryByOkHttp();
     }
 }
