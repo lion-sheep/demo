@@ -39,6 +39,10 @@ public class Student implements Serializable{
         this.desc =desc;
     }
 
+    public Student(String desc) {
+        this.desc =desc;
+    }
+
     public String getId() {
         return id;
     }

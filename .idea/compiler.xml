@@ -2,19 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java8" />
-        <module name="springboot-caffeine-redis" />
-      </profile>
-      <profile name="Annotation profile for guava" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="elasticsearch-demo" />
+        <module name="java8" />
         <module name="okhttp" />
+        <module name="springboot-caffeine-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,7 +19,7 @@
       <module name="guava" target="1.8" />
       <module name="java8" target="1.7" />
       <module name="okhttp" target="1.8" />
-      <module name="springboot-caffeine-redis" target="1.5" />
+      <module name="springboot-caffeine-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

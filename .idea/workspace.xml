@@ -2,24 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92572d3-a9cd-44f7-aaf3-b09458cdea9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/BulkOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/QuerySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/OkHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/MatchQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/MatchQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/basetest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/basetest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/querytest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/querytest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/HttpClientUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/OkHttpUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/OkHttpUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/OkHttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/OkHttpUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/curd/RestfulOKHttpClientCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/curd/RestfulOKHttpClientCRUD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/query/MatchQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/query/MatchQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/test/basetest/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/test/basetest/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/test/querytest/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/test/querytest/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8/java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java8/java8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/data-tructure.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/DepthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/ITree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/TreeRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/DepthFirstSearch$TreeRelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/DepthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/ITree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-tructure/target/classes/test/demo/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/elasticsearch-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/elasticsearch-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpClientPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/client-readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/client-readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/classes/test/demo/client/HttpClientPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/guava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/src/main/java/test/demo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/src/test/java/test/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-caffeine-redis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-caffeine-redis/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/guava/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/demo/App.java">
+      <file leaf-file-name="TransportClientSeacherTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="575">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,20 +74,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+      <file leaf-file-name="SearchType.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/search/SearchType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#3453#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/demo/Student.java">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="358">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuerySearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/QuerySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="159" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="159" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportClientSeacher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1006">
+              <caret line="113" column="120" selection-start-line="113" selection-start-column="120" selection-end-line="113" selection-end-column="120" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchRequestBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/search/SearchRequestBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="209" column="40" lean-forward="true" selection-start-line="208" selection-start-column="6" selection-end-line="209" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportClientCRUD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/TransportClientCRUD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,8 +147,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -91,7 +161,11 @@
       <find>HttpClient</find>
       <find>dependency</find>
       <find>com/jingdata/vcsaas/framework/service/user/impl/UserDetai</find>
+      <find>DFS_QUERY_THEN_FETCH</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/springboot-caffeine-redis</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,16 +173,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/C.java" />
-        <option value="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/A.java" />
-        <option value="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/B.java" />
-        <option value="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/Test.java" />
-        <option value="$PROJECT_DIR$/data-tructure/pom.xml" />
-        <option value="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/TreeRelation.java" />
         <option value="$PROJECT_DIR$/data-tructure/src/main/java/test/demo/tree/DepthFirstSearch.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/ClientDemo.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/TransportClientDemo.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/client-readme.txt" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/NodeClientTest.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/NodeClientBuild.java" />
@@ -119,7 +186,6 @@
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/RestfulClient.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/ClientCRUD.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/TransportCRUD.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/TransportClientCRUD.java" />
         <option value="$PROJECT_DIR$/okhttp/src/main/java/demo/xiaomage/utils/okHttpPacking.java" />
         <option value="$PROJECT_DIR$/okhttp/src/main/java/demo/xiaomage/test/OkHttpGetTest.java" />
         <option value="$PROJECT_DIR$/okhttp/src/main/java/demo/xiaomage/utils/ResponseListener.java" />
@@ -129,7 +195,6 @@
         <option value="$PROJECT_DIR$/okhttp/src/main/java/demo/xiaomage/test/okHttpPacking.java" />
         <option value="$PROJECT_DIR$/okhttp/src/main/java/demo/xiaomage/utils/OkHttpClientUtil.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/JsonResponseHandler.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-demo/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/OkHttpRestfulClient.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/OkHttpMethod.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/CallbackHandler.java" />
@@ -137,7 +202,6 @@
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulHttpClientCRUD.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/DocVO.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/Test.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/Student.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpClientPool.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulOKHttpClientCRUD.java" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/basetest/Test.java" />
@@ -150,6 +214,16 @@
         <option value="$PROJECT_DIR$/java8/pom.xml" />
         <option value="$PROJECT_DIR$/java8/src/main/java/com/demo/Student.java" />
         <option value="$PROJECT_DIR$/java8/src/main/java/com/demo/App.java" />
+        <option value="$PROJECT_DIR$/java8/src/main/java/com/demo/readme.txt" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/client-readme.txt" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/BulkOptions.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/TransportClientCRUD.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/Student.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/QuerySearch.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacher.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacherTest.java" />
       </list>
     </option>
   </component>
@@ -162,6 +236,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="checksumPolicy" value="WARN" />
         <option name="localRepository" value="$USER_HOME$/.m2/repository" />
         <option name="mavenHome" value="/usr/local/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="$USER_HOME$/.m2/settings-sts.xml" />
@@ -180,7 +255,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-caffeine-redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="elasticsearch-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="elasticsearch-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -193,10 +273,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
     <option name="y" value="23" />
-    <option name="width" value="1626" />
-    <option name="height" value="1027" />
+    <option name="width" value="1680" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,23 +283,101 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="guava" type="cbb8eebc:String" user="guava" />
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="guava" type="cbb8eebc:String" user="guava" />
-              <item name="guava" type="cbb8eebc:String" user="guava" />
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="guava" type="cbb8eebc:String" user="guava" />
-              <item name="guava" type="cbb8eebc:String" user="guava" />
-              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="curd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="basetest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="querytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,38 +404,23 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <expand>
             <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="guava" type="cbb8eebc:String" user="guava" />
             </path>
             <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="guava" type="cbb8eebc:String" user="guava" />
+              <item name="guava" type="cbb8eebc:String" user="guava" />
             </path>
             <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="guava" type="cbb8eebc:String" user="guava" />
+              <item name="guava" type="cbb8eebc:String" user="guava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
             </path>
           </expand>
           <select />
@@ -295,14 +437,16 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SearchEverywhereHistoryKey" value="com/jingdata/vcsaas/framework/service/user/impl/UserDetailServiceImpl.java&#9;null&#9;null&#10;Client&#9;FILE&#9;file:///Users/maguowei/workspace/idea/demo/elasticsearch-demo/src/main/java/test/demo/client" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.51428574" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -327,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.TransportClientSeacherTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -338,17 +482,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="OkHttpGetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.xiaomage.test.OkHttpGetTest" />
-      <module name="okhttp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.xiaomage.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,6 +538,17 @@
       <module name="elasticsearch-demo" />
       <envs />
     </configuration>
+    <configuration name="TransportClientSeacherTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.demo.query.TransportClientSeacherTest" />
+      <module name="elasticsearch-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.demo.query.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -435,16 +579,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="java8" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-caffeine-redis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.maguowei.Application" />
@@ -474,6 +608,16 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="java8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -490,18 +634,18 @@
     <list>
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.OkHttpGetTest" />
       <item itemvalue="Application.okHttpPacking" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.TransportClientSeacherTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransportClientSeacherTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.okHttpPacking" />
-        <item itemvalue="Application.OkHttpGetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -569,12 +713,21 @@
       <workItem from="1524959876004" duration="9755000" />
       <workItem from="1525316340702" duration="21000" />
       <workItem from="1525486682613" duration="6138000" />
-      <workItem from="1527898847704" duration="600000" />
+      <workItem from="1527898847704" duration="1315000" />
+      <workItem from="1528096321310" duration="230000" />
+      <workItem from="1528096578361" duration="461000" />
+      <workItem from="1528097066304" duration="41000" />
+      <workItem from="1528097139946" duration="1403000" />
+      <workItem from="1528171061726" duration="26000" />
+      <workItem from="1528424151470" duration="1224000" />
+      <workItem from="1528426551860" duration="4568000" />
+      <workItem from="1528541516264" duration="15157000" />
+      <workItem from="1528794876463" duration="17612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191880000" />
+    <option name="totallyTimeSpent" value="233317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,12 +739,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1626" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50252527" side_tool="true" weight="0.32849163" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50252527" side_tool="true" weight="0.32201406" />
       <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.50252527" side_tool="true" weight="0.32819384" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32932997" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32885087" />
       <window_info anchor="bottom" id="JRebel Executor" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -600,18 +754,19 @@
       <window_info id="Structure" order="1" sideWeight="0.51277953" side_tool="true" weight="0.27939317" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.24968395" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39867842" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32930845" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3266979" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32849163" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31057268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31030446" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.32819384" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32786885" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49747476" weight="0.32819384" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48722044" visible="true" weight="0.2907712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48722044" visible="true" weight="0.22371638" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32932997" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info id="JRebel" order="5" side_tool="true" />
@@ -620,7 +775,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3270925" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
@@ -637,7 +791,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -645,13 +799,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/demo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/demo/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,20 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulCRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulOKHttpClientCRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="46" column="67" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -732,31 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/basetest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/impl/execchain/RequestEntityProxy.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5-sources.jar!/org/apache/http/message/BasicHttpResponse.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5-sources.jar!/org/apache/http/NameValuePair.java" />
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/JsonGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5-sources.jar!/org/apache/http/entity/StringEntity.java" />
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="131" column="9" lean-forward="true" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/RestfulClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -764,24 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/MatchQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/OkHttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/querytest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -808,8 +917,246 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/demo/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="230">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-caffeine-redis/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/CallbackHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/client-readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/common/xcontent/XContentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/TransportClientBuild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/JsonGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulOKHttpClientCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-856">
+          <caret line="46" column="67" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/TransportCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/querytest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2.jar!/org/elasticsearch/action/support/IndicesOptions.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/support/IndicesOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2982" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/search/MultiSearchRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/RestfulHttpClientCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/client/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2.jar!/org/elasticsearch/action/index/IndexRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="41" column="90" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#15844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/DocWriteRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/update/UpdateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/ActionRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/MatchQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/BulkOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/test/basetest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/curd/TransportClientCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/po/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/search/SearchType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#3453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/QuerySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="159" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="159" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.2.2/elasticsearch-6.2.2-sources.jar!/org/elasticsearch/action/search/SearchRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="209" column="40" lean-forward="true" selection-start-line="208" selection-start-column="6" selection-end-line="209" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="113" column="120" selection-start-line="113" selection-start-column="120" selection-end-line="113" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-demo/src/main/java/test/demo/query/TransportClientSeacherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -868,7 +1215,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java8</last-edited>
+          <last-edited>elasticsearch-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
