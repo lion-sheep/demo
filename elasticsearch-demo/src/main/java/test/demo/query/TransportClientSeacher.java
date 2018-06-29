@@ -180,4 +180,24 @@ public class TransportClientSeacher implements QuerySearch {
                 break;
         }
     }
+
+    @Override
+    public  void boolQuery(){
+
+    }
+
+    @Override
+    public void filterQuery(){
+
+    }
+
+    @Override
+    public void aggQuery(){
+
+    }
+
+    @Override
+    public void metricsAgg(){
+
+    }
 }

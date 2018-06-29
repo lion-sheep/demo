@@ -54,8 +54,9 @@ public class TransportClientSeacherTest {
         new TransportClientSeacher().bulk(map, BulkOptions.DELETE);
     }
 
-    public static void main(String[] args) {
+    public static void main006(String[] args) {
         log.info("快小马哥请开始你的表演");
         new TransportClientSeacher().matchRangeQuery("school", "student", "girl", "desc", "age", new int[] {1, 50}, 0, 10);
     }
+
 }

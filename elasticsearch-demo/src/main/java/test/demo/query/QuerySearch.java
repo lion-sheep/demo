@@ -14,4 +14,8 @@ public interface QuerySearch {
       void matchRangeQuery(String index,String type,String queryCondition,String matchField,String rangeField,int[] rangeCondition,int pageIndex,int pageSize);
       void multiQuery(String index,String type,String queryCondition,String[] fields,int pageIndex,int pageSize);
       void bulk(Map<String,Student> map,BulkOptions option);
+      void boolQuery();
+      void filterQuery();
+      void aggQuery();
+      void metricsAgg();
 }
