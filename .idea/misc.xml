@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/okhttp/pom.xml" />
         <option value="$PROJECT_DIR$/java8/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
