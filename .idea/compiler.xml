@@ -10,7 +10,9 @@
         <module name="elasticsearch-demo" />
         <module name="java8" />
         <module name="okhttp" />
+        <module name="spring-boot-elastic-job" />
         <module name="springboot-caffeine-redis" />
+        <module name="zkclient" />
         <module name="zookeeper" />
       </profile>
     </annotationProcessing>
@@ -20,7 +22,9 @@
       <module name="guava" target="1.8" />
       <module name="java8" target="1.8" />
       <module name="okhttp" target="1.8" />
+      <module name="spring-boot-elastic-job" target="1.8" />
       <module name="springboot-caffeine-redis" target="1.8" />
+      <module name="zkclient" target="1.8" />
       <module name="zookeeper" target="1.8" />
     </bytecodeTargetLevel>
   </component>

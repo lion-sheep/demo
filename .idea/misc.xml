@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/java8/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch-demo/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/zkclient/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-elastic-job/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -5,7 +5,9 @@
     <file url="file://$PROJECT_DIR$/elasticsearch-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java8" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/okhttp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-elastic-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-caffeine-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zkclient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
