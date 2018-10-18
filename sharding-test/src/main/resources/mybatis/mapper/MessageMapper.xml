@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secoo.send_message.mapper.MessageMapper">
+  <resultMap id="BaseResultMap" type="com.secoo.send_message.pojo.Message">
+    <id column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="usable_num" jdbcType="INTEGER" property="usableNum" />
+    <result column="open_id" jdbcType="VARCHAR" property="openId" />
+    <result column="app_id" jdbcType="VARCHAR" property="appId" />
+    <result column="message_type" jdbcType="TINYINT" property="messageType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    app_id,open_id,message_type,usable_num,created_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from message
+    where open_id = #{openId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteMessage" parameterType="com.secoo.send_message.pojo.Message">
+    delete from message
+    where app_id = #{appId,jdbcType=VARCHAR} and open_id = #{openId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.secoo.send_message.pojo.Message">
+    insert into message
+        (app_id,open_id,message_type,usable_num,created_time)
+    values
+      (#{appId,jdbcType=VARCHAR}, #{openId,jdbcType=VARCHAR},
+      #{messageType,jdbcType=TINYINT}, #{usableNum,jdbcType=INTEGER}, #{createdTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.secoo.send_message.pojo.Message">
+    insert into message
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="appId != null">
+        app_id,
+      </if>
+      <if test="openId != null">
+        open_id,
+      </if>
+      <if test="messageType != null">
+        message_type,
+      </if>
+      <if test="usableNum != null">
+        usable_num,
+      </if>
+      <if test="createdTime != null">
+        created_time
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="appId != null">
+        #{appId,jdbcType=VARCHAR},
+      </if>
+      <if test="openId != null">
+        #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="messageType != null">
+        #{messageType,jdbcType=TINYINT},
+      </if>
+      <if test="usableNum != null">
+        #{usableNum,jdbcType=INTEGER},
+      </if>
+      <if test="createdTime != null">
+        #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.secoo.send_message.pojo.Message">
+    update message
+    <set>
+      <if test="appId != null">
+        app_id = #{appId,jdbcType=VARCHAR},
+      </if>
+      <if test="messageType != null">
+        message_type = #{messageType,jdbcType=TINYINT},
+      </if>
+      <if test="usableNum != null">
+        usable_num = #{usableNum,jdbcType=INTEGER},
+      </if>
+      <if test="createdTime != null">
+        created_time = #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where  open_id = #{openId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.secoo.send_message.pojo.Message">
+    update message
+    set
+      app_id = #{appId,jdbcType=VARCHAR},
+      message_type = #{messageType,jdbcType=TINYINT},
+      usable_num = #{usableNum,jdbcType=INTEGER},
+      created_time = #{createdTime,jdbcType=TIMESTAMP}
+    where open_id = #{openId,jdbcType=VARCHAR}
+  </update>
+</mapper>
