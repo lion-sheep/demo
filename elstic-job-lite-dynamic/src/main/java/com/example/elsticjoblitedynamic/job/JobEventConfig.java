@@ -1,4 +1,4 @@
-package com.example.springbootelasticjob.job;
+package com.example.elsticjoblitedynamic.job;
 
 import com.dangdang.ddframe.job.event.JobEventConfiguration;
 import com.dangdang.ddframe.job.event.rdb.JobEventRdbConfiguration;

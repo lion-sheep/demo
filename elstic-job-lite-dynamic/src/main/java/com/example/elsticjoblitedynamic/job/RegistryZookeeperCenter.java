@@ -1,4 +1,4 @@
-package com.example.springbootelasticjob.job;
+package com.example.elsticjoblitedynamic.job;
 
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperConfiguration;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;

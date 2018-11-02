@@ -1,10 +1,9 @@
-package com.example.elasticjoblitespringbootstarter.pojo;
+package com.example.elsticjoblitedynamic.job.pojo;
 
-import com.google.common.collect.Lists;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,21 +13,22 @@ import java.util.concurrent.ConcurrentHashMap;
  * @desc
  * @date 2018/9/14 下午12:00
  */
-@Repository
 @Getter
 @Setter
 public class DataRepository {
-    private Map<Long, Foo> datas = new ConcurrentHashMap<>(20, 1);
+    private static Map<Long, Foo> datas = new ConcurrentHashMap<>(20, 1);
 
     public DataRepository() {
         init();
     }
 
     private void init() {
-        addData(1L, 5L, "beijing");
-        addData(6L, 10L, "shanghai");
-        addData(11L, 15L, "guangzhou");
-        addData(16L, 20L, "shenzhen");
+        addData(1L, 5L, "北京");
+        addData(6L, 10L, "上海");
+        addData(11L, 15L, "广州");
+        addData(16L, 20L, "深圳");
+        Foo foo = new Foo(21L, "深圳", Foo.Status.COMPLETED);
+        datas.put(21L, foo);
     }
 
     private void addData(final long idFrom, final long idTo, final String location) {
@@ -38,19 +38,13 @@ public class DataRepository {
     }
 
     public List<Foo> findTodoData(String location) {
-        List<Foo> foos = Lists.newArrayList();
+        List<Foo> foos = new ArrayList<>();
         for (Map.Entry<Long, Foo> em : datas.entrySet()) {
             Foo foo = em.getValue();
-            if (location.equals(foo.getLocation()) && Foo.Status.TODO == foo.getStatus()) {
+            if (location.equals(foo.getLocation()) && foo.getStatus() == Foo.Status.TODO) {
                 foos.add(foo);
             }
         }
         return foos;
     }
-
-    public void setCompleted(final long id) {
-        //设置状态，不让他一直抓取
-        datas.get(id).setStatus(Foo.Status.COMPLETED);
-    }
-
 }

@@ -1,9 +1,6 @@
-package com.example.elasticjoblitespringbootstarter.pojo;
+package com.example.elsticjoblitedynamic.job.pojo;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 
@@ -12,8 +9,7 @@ import java.io.Serializable;
  * @desc
  * @date 2018/9/14 上午11:57
  */
-@Setter
-@Getter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Foo implements Serializable {
